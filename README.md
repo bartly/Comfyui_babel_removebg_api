@@ -1,37 +1,41 @@
+<p align="left">
+    <a href="README_CN.md">中文</a>&nbsp ｜ &nbspEnglish&nbsp 
+</p>
+<br><br>
 
-## 项目介绍 | Info
+## Project Introduction
 
-- 商用级人像分割，发丝级抠图，效果杠杠的
+- Commercial-grade portrait segmentation, hair-level matting, with excellent results.
 
-- 通过 API 将 Babel Removebg API 引入 ComfyUI
+- Import the Babel Removebg API into ComfyUI through an API.
 
-- 可以用我的apikey和apisecret(已经配置在config.json里了，未认证有点慢)，里面还有几千张，用得好记得star哦
+- You can use my apikey and apisecret (already configured in config.json. It's a bit slow without authentication). There are still several thousand images left. If it works well for you, remember to give it a star.
 
-- 人像分割：
-   - 3M以下 0.1 元/张 全部用户         最小分辨率50,最大分辨率2000
-   - 3M以上 0.2 元/张 认证用户开放     最小分辨率50,最大分辨率5000
-- 认证用户特权
-   - 处理加速
-   - 支持高清大图
-   - 支持高并发
+- Human Body Removebg:
+   - For images under 3MB, it costs 0.1/¥ per image for all users. Minimum resolution is 50, and maximum resolution is 2000.
+   - For images over 3MB, it costs 0.2/¥ per image. Open to authenticated users. Minimum resolution is 50, and maximum resolution is 5000.
+- Privileges for ID authenticated users:
+   - Faster processing.
+   - Supports high-resolution large images.
+   - Supports high concurrency.
 
-## 安装 | Install
+## Installation
 
-- 使用前请先申请 API (别申请了，先用我的，记得star!!!)
+- Please apply for an API first before using (Don't worry it. Just use mine for now. Remember to give it a star!!!).
 
-- 将 Babel apikey 和 apisecret 添加到 config.json 文件中，运行时会自动加载
+- Add the Babel apikey and apisecret to the config.json file. They will be automatically loaded when running.
 
-- 推荐使用管理器 ComfyUI Manager 安装（On The Way）
+- It is recommended to install using the manager ComfyUI Manager (On The Way).
 
-- 手动安装：
+- Manual installation:
     1. `cd custom_nodes`
     2. `git clone https://github.com/bartly/Comfyui_babel_removebg_api`
-    3. 重启 ComfyUI
+    3. Restart ComfyUI.
 
 
-## 工作流 | Workflows
+## Workflows
 
-  - 就一个节点，就长下面这样
+  - There is only one node, and it looks like this.
 
     ![workflow](https://idphoto-output.oss-cn-shanghai.aliyuncs.com/78cc153f-5d8e-48e2-82f9-d00e6b70b474.png?OSSAccessKeyId=LTAI5tNJqEmgZRuFR7AiSdC3&Expires=78981527611967&Signature=G2HpOOIhaVoTnEf5r77rAv1JaAk%3D)
 
