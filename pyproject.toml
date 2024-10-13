@@ -1,0 +1,14 @@
+[project]
+name = "comfyui_babel_removebg_api"
+description = "This is a node to remove background of human picture."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/bartly/Comfyui_babel_removebg_api"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui_babel_removebg_api"
+Icon = ""
