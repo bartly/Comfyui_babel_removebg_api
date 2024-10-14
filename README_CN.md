@@ -25,7 +25,7 @@
 
 - 将 Babel apikey 和 apisecret 添加到 config.json 文件中，运行时会自动加载
 
-- 推荐使用管理器 ComfyUI Manager 安装（On The Way）
+- 推荐使用管理器 ComfyUI Manager 安装
 
 - 手动安装：
     1. `cd custom_nodes`
