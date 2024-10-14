@@ -9,6 +9,6 @@ Repository = "https://github.com/bartly/Comfyui_babel_removebg_api"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "babelremovebgapi"
 DisplayName = "Comfyui_babel_removebg_api"
 Icon = ""

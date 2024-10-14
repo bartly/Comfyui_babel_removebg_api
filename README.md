@@ -13,8 +13,8 @@
 
 - Human Body Removebg:
    - For images under 3MB, it costs ¥0.1 per image for all users. Minimum resolution is 50, and maximum resolution is 2000.
-   - For images over 3MB, it costs ¥0.2 per image. Open to authenticated users. Minimum resolution is 50, and maximum resolution is 5000.
-- Privileges for ID authenticated users:
+   - For images over 3MB, it costs ¥0.2 per image. Open to subscribers. Minimum resolution is 50, and maximum resolution is 5000.
+- Privileges for subscribers:
    - Faster processing.
    - Supports high-resolution large images.
    - Supports high concurrency.
