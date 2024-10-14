@@ -1,9 +1,8 @@
 [project]
-name = "babelremovebgapi"
+name = "comfyui_babel_removebg_api"
 description = "This is a node to remove background of human picture."
 version = "1.0.0"
-license = { file = "LICENSE.txt" }
-dependencies = ["GitPython", "PyGithub"]
+license = {file = "LICENSE"}
 
 [project.urls]
 Repository = "https://github.com/bartly/Comfyui_babel_removebg_api"
@@ -11,5 +10,5 @@ Repository = "https://github.com/bartly/Comfyui_babel_removebg_api"
 
 [tool.comfy]
 PublisherId = "babelremovebgapi"
-DisplayName = "BabelRemovebgApi"
+DisplayName = "Comfyui_babel_removebg_api"
 Icon = ""
